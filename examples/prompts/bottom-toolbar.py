@@ -4,7 +4,7 @@ A few examples of displaying a bottom toolbar.
 
 The ``prompt`` function takes a ``bottom_toolbar`` attribute.
 This can be any kind of formatted text (plain text, HTML or ANSI), or
-it can be a callable that takes an App and returns an of these.
+it can be a callable that takes an App and returns any of these.
 
 The bottom toolbar will always receive the style 'bottom-toolbar', and the text
 inside will get 'bottom-toolbar.text'. These can be used to change the default
